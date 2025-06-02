@@ -30,7 +30,9 @@ SECRET_KEY = 'django-insecure-q_+klufwbot)xnu_0ov8@)6=kk)^piz-!_kr-!!zybs9i(=-o9
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'https://prophetai.kpipesbuilders.co.ke'
+]
 
 
 # Application definition
