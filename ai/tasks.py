@@ -1,6 +1,6 @@
 # new_project/your_app/tasks.py
 
-from celery import shared_task
+# from celery import shared_task
 from prophet import Prophet
 import pandas as pd
 import holidays
@@ -21,7 +21,7 @@ def make_holidays_df(years):
 
 
 
-@shared_task
+# @shared_task
 def retrain_prophet_model(customer_id, sales_data):
     print('training session')
     request_url = os.getenv("AI_URL")

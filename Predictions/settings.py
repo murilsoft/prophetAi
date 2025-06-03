@@ -47,9 +47,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
-    'rest_framework_api_key',
+    # 'rest_framework_api_key',
     'corsheaders',
-    'channels',
+    # 'channels',
 ]
 
 MIDDLEWARE = [
@@ -143,8 +143,8 @@ CORS_ALLOWED_ORIGINS = [
 
 
 
-CELERY_BROKER_URL = 'redis://localhost:6379/0'  # or your Redis instance
-CELERY_RESULT_BACKEND = 'redis://localhost:6379/0'
+# CELERY_BROKER_URL = 'redis://localhost:6379/0'  # or your Redis instance
+# CELERY_RESULT_BACKEND = 'redis://localhost:6379/0'
 
-CELERY_ACCEPT_CONTENT = ['json']
-CELERY_TASK_SERIALIZER = 'json'
+# CELERY_ACCEPT_CONTENT = ['json']
+# CELERY_TASK_SERIALIZER = 'json'
